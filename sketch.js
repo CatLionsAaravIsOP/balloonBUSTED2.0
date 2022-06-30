@@ -106,9 +106,8 @@ console.log(frameCount);
 
   }
 
-if (frameCount>1000) {
-  red.destroyEach();
-  gameState=END; 
+if (frameCount>700) {
+   gameState=END; 
 }
 
 
